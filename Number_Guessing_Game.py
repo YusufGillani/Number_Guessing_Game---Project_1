@@ -20,9 +20,15 @@ while start_game:
             number_of_tries += 1
             
             if number > guess_number:
-                print("It is lower!")
+                if number > 10:
+                    print("That number is not between 1 and 10. Try again!")
+                else:
+                    print("It is lower!")
             elif number < guess_number:
-                print("It is higher!")
+                if number < 1:
+                    print("That number is not between 1 and 10. Try again!")
+                else:
+                    print("It is higher!")
             else:
                 print("You got it! It took you {} tries".format(number_of_tries))
                 break
