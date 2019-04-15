@@ -1,1 +1,1 @@
-# Number_Guessing_Game - Project_1
+# Number Guessing Game - Project 1
