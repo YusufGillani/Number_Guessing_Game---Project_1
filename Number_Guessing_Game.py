@@ -33,6 +33,7 @@ while start_game:
             print("The HIGHSCORE is {}".format(min(highscore)))
             continue
         else:
+            print("Goodbye see you next time!")
             break
     except ValueError:
         print("This is not a number! Start again")
